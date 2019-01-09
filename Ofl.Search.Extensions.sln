@@ -1,0 +1,69 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37B2568D-64A6-4FCE-9D3B-D85F42C801C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9BA6F36A-AEE2-44B3-8EA7-D17D79A1EA5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Search.Extensions", "src\Ofl.Search.Extensions\Ofl.Search.Extensions.csproj", "{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{E7475256-81DF-4596-ACF9-47BB57DAEDBA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.Search.Extensions.sln.DotSettings = Ofl.Search.Extensions.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Search.Extensions.Tests", "test\Ofl.Search.Extensions.Tests\Ofl.Search.Extensions.Tests.csproj", "{D6921E75-1B4F-4D80-AA70-D057B62C1994}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Debug|x64.Build.0 = Debug|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Debug|x86.Build.0 = Debug|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Release|x64.ActiveCfg = Release|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Release|x64.Build.0 = Release|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Release|x86.ActiveCfg = Release|Any CPU
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19}.Release|x86.Build.0 = Release|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Debug|x64.Build.0 = Debug|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Debug|x86.Build.0 = Debug|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Release|x64.ActiveCfg = Release|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Release|x64.Build.0 = Release|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Release|x86.ActiveCfg = Release|Any CPU
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{122D54CE-7611-4D47-ABD0-BC9BC77F4B19} = {37B2568D-64A6-4FCE-9D3B-D85F42C801C7}
+		{D6921E75-1B4F-4D80-AA70-D057B62C1994} = {9BA6F36A-AEE2-44B3-8EA7-D17D79A1EA5D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4732ECB-D857-4431-A79B-4E0C3668986D}
+	EndGlobalSection
+EndGlobal
