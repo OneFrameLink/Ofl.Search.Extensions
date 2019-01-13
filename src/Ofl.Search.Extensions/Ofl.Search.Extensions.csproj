@@ -10,6 +10,6 @@
     <RootNamespace>Ofl.Search</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Ofl.Search.Abstractions" Version="5.0.17" />
+    <PackageReference Include="Ofl.Search.Abstractions" Version="5.0.20" />
   </ItemGroup>
 </Project>
