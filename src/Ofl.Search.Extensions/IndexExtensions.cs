@@ -11,8 +11,10 @@ namespace Ofl.Search
             // Validate parameters.
             if (index == null) throw new ArgumentNullException(nameof(index));
 
-            // Destroy the index.
-            await index.DestroyAsync(cancellationToken).ConfigureAwait(false);
+            // Destroy the index if it exists.
+            if (await index.ExistsAsync(cancellationToken).ConfigureAwait(false))
+                // Destroy it.
+                await index.DestroyAsync(cancellationToken).ConfigureAwait(false);
 
             // Create the index.
             await index.CreateAsync(cancellationToken).ConfigureAwait(false);
