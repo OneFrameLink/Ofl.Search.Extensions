@@ -12,6 +12,6 @@
   <ItemGroup>
     <PackageReference Include="Ofl.Collections" Version="1.2.8" />
     <PackageReference Include="Ofl.Linq" Version="2.1.15" />
-    <PackageReference Include="Ofl.Search.Abstractions" Version="5.1.21" />
+    <PackageReference Include="Ofl.Search.Abstractions" Version="5.1.22" />
   </ItemGroup>
 </Project>
